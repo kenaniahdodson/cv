@@ -55,39 +55,18 @@ Contact {#contact}
 
 
 - <i class="fa fa-envelope"></i> kenaniahdodson@gmail.com
-- <i class="fa fa-twitter"></i> KenaniahDodson
 - <i class="fa fa-github"></i> https://github.com/kenaniahdodson
-- <i class="fa fa-link"></i> [https://github.com/kenaniahdodson/cv](https://github.com/kenaniahdodson/cv)
+- <i class="fa fa-link"></i> [https://kenaniahdodson.github.io/](https://kenaniahdodson.github.io/)
 - <i class="fa fa-phone"></i> (910) 922-9279
 
 
 
-Language Skills {#skills}
---------------------------------------------------------------------------------
-
-
-```{r}
-skills <- tribble(
-  ~skill,               ~level,
-  "R",                  3,
-  "Javascript (d3.js)", 1,
-  "Python",             2,
-  "Bash",               1,
-  "SQL",                2,
-  "C++",                1,
-  "AWK",                1
-)
-build_skill_bars(skills)
-```
-
-
-
-Open Source Contributions {#open-source}
+Projects {#open-source}
 --------------------------------------------------------------------------------
 
 All projects available at `github.com/kenaniahdodson<name>`
 
-
+- `Mapping Census Data`: Visualization of custom regression models using goverment-disclosed data to identify connections between household income and various public sector factors
 - `montyhall`: R package to solve the MontyHall problem
 - `kenaniahdodson.github.io`: Website to demonstrate template proficiency
 
@@ -95,15 +74,13 @@ All projects available at `github.com/kenaniahdodson<name>`
 More info {#more-info}
 --------------------------------------------------------------------------------
 
-See full CV at https://github.com/kenaniahdodson/cv.html for more complete list of positions and publications.
+See full CV at kenaniahdodson.github.io for more complete list of positions and publications.
 
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
 Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
-
-Source code: [https://github.com/kenaniahdodson/cv](https://github.com/kenaniahdodson/cv).
 
 Last updated on `r Sys.Date()`.
 
@@ -117,9 +94,7 @@ Kenaniah Dodson {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "Results-driven professional with a strong background in business operations, policy analysis, and data-driven decision-making. I completed my undergraduate studies in Business with a Concentration in Law, and I am currently in a Master's Program in Program Evaluation and Data Analytics.
-
-Currently searching for a market research position that allows me to design actionable decisions using visualization and comprehensive framework to help companies achieve metric goals. 
+intro_text <- "Results-driven professional with a strong background in business operations, policy analysis, and data-driven decision-making. I completed my undergraduate studies in Business with a Concentration in Law, and I am completing my Master's Program in Program Evaluation and Data Analytics. 
 "
 
 
@@ -137,19 +112,21 @@ position_data %>% print_section('education')
 
 
 
-Selected Positions {data-icon=suitcase}
+Professional Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ```{r}
 position_data %>% print_section('positions')
 ```
 
-Selected Analytical Experience {data-icon=newspaper}
+Policy and Analytical Experience {data-icon=newspaper}
 --------------------------------------------------------------------------------
 
 
 ```{r}
 position_data %>% print_section('analytical experience')
 ```
+
+
 
 
