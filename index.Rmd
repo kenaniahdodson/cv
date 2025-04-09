@@ -67,7 +67,7 @@ Projects {#open-source}
 All projects available at `github.com/kenaniahdodson<name>`
 
 - `Mapping Census Data`: Visualization of custom regression models using goverment-disclosed data to identify connections between household income and various public sector factors
-- `montyhall`: R package to solve the MontyHall problem
+- `Montyhall`: R package to solve the MontyHall problem
 - `kenaniahdodson.github.io`: Website to demonstrate template proficiency
 
 
