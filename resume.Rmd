@@ -153,3 +153,12 @@ position_data %>% print_section('analytical experience')
 ```
 
 
+Selected Positions {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('technical skills')
+```
+
+
+
